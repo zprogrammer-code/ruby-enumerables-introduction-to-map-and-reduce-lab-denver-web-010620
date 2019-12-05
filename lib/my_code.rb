@@ -60,9 +60,10 @@ end
   return total
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total_with_start(source_array, starting_point)
  index = 0  
   total = 0
+  
  while index < source_array.length do 
     if source_array[index]
      total += starting_point
